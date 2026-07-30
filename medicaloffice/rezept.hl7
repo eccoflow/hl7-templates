@@ -1,1 +1,7 @@
-
+MSH|^~\&|7FLOW|TELEFONBOT|AIS|PRAXIS|{{now:yyyyMMddHHmmss}}||MDM^T02|{{task.id}}|P|2.3
+PID|1|||
+TXA|1|REZEPTWUNSCH|TX|{{now:yyyyMMddHHmmss}}
+OBX|1|TX|NAME||{{description.Name|hl7}}
+OBX|2|TX|GEBURTSDATUM||{{description.Geburtsdatum|hl7}}
+OBX|3|TX|MEDIKAMENT||{{description.Medikament|hl7}}
+NTE|1||{{task.subject|hl7}}
