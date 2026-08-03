@@ -5,6 +5,6 @@
 0153101{{patient.Nachname}}
 0106330KI
 0456331Anruf beim Voicebot: {{task.createdAt:dd.MM.yyyy}} {{task.createdAt:HH:mm:ss}}
-0556331BEfundanforderung von {{description.Arzt}})
+0556331Befundanforderung von {{description.Arzt}}
 0656331(Erkannter Name: {{description.Name}})
 0756331(Erkanntes Geburtsdatum: {{description.GeburtsDatum}})
